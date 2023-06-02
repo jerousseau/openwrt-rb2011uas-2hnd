@@ -37,6 +37,7 @@ ath79_setup_interfaces()
 		ucidef_add_switch "switch0" \
 			"0@eth0" "2:lan" "3:lan" "4:lan" "5:lan" "1:wan"
 		;;
+	mikrotik,routerboard-2011uas-2hnd|\
 	mikrotik,routerboard-2011r5)
 		ucidef_set_interfaces_lan_wan "port2 port3 port4 port5 port6 port7 port8 port9 port10" "port1"
 		;;

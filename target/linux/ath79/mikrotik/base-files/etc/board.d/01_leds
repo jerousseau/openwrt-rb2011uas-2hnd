@@ -14,6 +14,7 @@ mikrotik,routerboard-952ui-5ac2nd)
 	ucidef_set_led_switch "port4" "port4" "green:port4" "switch0" "0x04"
 	ucidef_set_led_switch "port5" "port5" "green:port5" "switch0" "0x02"
 	;;
+mikrotik,routerboard-2011uas-2hnd|\
 mikrotik,routerboard-2011r5)
 	ucidef_set_led_netdev "port6"  "port6"  "green:port6"  "port6"
 	ucidef_set_led_netdev "port7"  "port7"  "green:port7"  "port7"

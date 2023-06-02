@@ -120,6 +120,15 @@ define Device/mikrotik_routerboard-2011r5
 endef
 TARGET_DEVICES += mikrotik_routerboard-2011r5
 
+define Device/mikrotik_routerboard-2011uas-2hnd
+  $(Device/mikrotik_nand)
+  SOC := ar9344
+  DEVICE_MODEL := RouterBOARD 2011UAS-2HnD
+  DEVICE_PACKAGES += kmod-i2c-gpio kmod-usb2
+  SUPPORTED_DEVICES += rb-2011uas-2hnd
+endef
+TARGET_DEVICES += mikrotik_routerboard-2011uas-2hnd
+
 define Device/mikrotik_routerboard-sxt-5nd-r2
   $(Device/mikrotik_nand)
   SOC := ar9344
