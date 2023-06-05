@@ -25,7 +25,7 @@ case "$FIRMWARE" in
 	case $board in
 	mikrotik,routerboard-2011uas-2hnd|\
 	mikrotik,routerboard-2011uias-2hnd)
-		caldata_mikrotik_ath9k 0x1000 0x440 $(macaddr_add "$mac_base" +11)
+		caldata_mikrotik_ath9k 0x1000 0x440 $(macaddr_add "$mac_base" 11)
 		;;
 	mikrotik,routerboard-912uag-2hpnd|\
 	mikrotik,routerboard-lhg-2nd|\
